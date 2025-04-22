@@ -42,6 +42,13 @@ while True:
     asmuo = Zmogus(vardas, pavarde, lytis, amzius, vieta)
     zmoniu_sar.append(asmuo)
 
+    for zmogus in zmoniu_sar:
+        print(zmogus)
+    
+    
+    
+
+
 
     
 
