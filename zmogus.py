@@ -18,5 +18,16 @@ class Zmogus:
             print(zmogus)
 
 
+    def skaiciuoti_vidurki(zmoniu_sar):
+        if len(zmoniu_sar) == 0:
+            return 0
+        suma = 0
+        for zmogus in zmoniu_sar:
+            suma += zmogus.amzius
+        vidurkis = suma / len(zmoniu_sar)
+        return vidurkis
+    
+    dexdwgdvgewdyucfdegyu
+    
     
     
