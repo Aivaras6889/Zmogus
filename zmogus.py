@@ -27,6 +27,7 @@ class Zmogus:
         vidurkis = suma / len(zmoniu_sar)
         return vidurkis
     
+    dexdwgdvgewdyucfdegyu
     
     
     
