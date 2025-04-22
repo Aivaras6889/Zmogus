@@ -15,37 +15,29 @@ class Zmogus:
 
     #vardas, pavarde, amzius ,vieta ,lytis
 
-duomenys = []
-
-def IvestiDuomenys():
-
-    vardas= input("Iveskite savo varda: ")
-
-    if vardas.lower() == "q":
-        return "q", "", "", 0, ""
-        
-    pavarde = input("Iveskit savo pavarde: ")
-    lytis = input("Iveskite savo lyti: ")
-    amzius = int(input("Iveskite savo amziu: "))
-    vieta = input("Iveskite vietove kurioje gyvenate(Miestas/Kaimas ...) ")
-
-    return vardas, pavarde, lytis, amzius, vieta
-
+zmoniu_sar = []
 
 
 while True:
     print("Iveskite duomenys(vardas, pavarde, lytis, amzius, vieta) noredami uzbaigti iveskite 'q' ")
 
-    vardas, pavarde, lytis, amzius, vieta = IvestiDuomenys()
-
+    vardas= input("Iveskite savo varda: ")
     if vardas == "q":
         break
+    pavarde = input("Iveskit savo pavarde: ")
+    lytis = input("Iveskite savo lyti: ")
+    amzius = int(input("Iveskite savo amziu: "))
+    vieta = input("Iveskite vietove kurioje gyvenate(Miestas/Kaimas ...) ")
+
+
+
+
+ 
 
     asmuo = Zmogus(vardas, pavarde, lytis, amzius, vieta)
-    duomenys.append(asmuo)
+    zmoniu_sar.append(asmuo)
 
-sarasas = duomenys()
-print(sarasas)
+
 
 
 
